@@ -11,6 +11,7 @@ public class Book {
       public String getName(){
       return this.name;
       }
+
       public void setyearEdition(int yearEdition){
        this.yearEdition = yearEdition;
       }
@@ -21,4 +22,8 @@ public class Book {
       public Author getAuthor() {
       return this.author;
    }
+
+      public String toString(){
+      return "Название " + name + " Автор " + author + " Год издания " + yearEdition;
+      }
 }
